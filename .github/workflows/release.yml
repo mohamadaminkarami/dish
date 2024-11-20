@@ -82,7 +82,7 @@ jobs:
 
           - name: hadoop-historyserver
             path: ./historyserver
-            base_image: hadoop-pash-base
+            base_image: hadoop-pash-based
 
           - name: hadoop-submit
             path: ./submit
